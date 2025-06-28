@@ -2,10 +2,36 @@ from sqlalchemy.orm import Session
 import models, schemas
 
 def create_animal(db: Session, animal: schemas.AnimalCreate):
-    db_animal = models.Animal(**animal.dict())
+    db_animal = models.Animal(
+        name=animal.name,
+        latin_name=animal.latin_name,
+    )
     db.add(db_animal)
     db.commit()
     db.refresh(db_animal)
+
+    db_zoopedia = models.ZoopediaDescription(
+        animal_id=db_animal.id, **animal.zoopedia_description.model_dump()
+    )
+    db_gameplay = models.Gameplay(
+        animal_id=db_animal.id, **animal.gameplay.model_dump()
+    )
+    db_origins = models.Origins(
+        animal_id=db_animal.id, **animal.origins.model_dump()
+    )
+    db_habitat = models.Habitat(
+        animal_id=db_animal.id, **animal.habitat.model_dump()
+    )
+    db_social = models.Social(
+        animal_id=db_animal.id, **animal.social.model_dump()
+    )
+    db_reproduction = models.Reproduction(
+        animal_id=db_animal.id, **animal.reproduction.model_dump()
+    )
+
+    db.add_all([db_zoopedia, db_gameplay, db_origins, db_habitat, db_social, db_reproduction])
+    db.commit()
+
     return db_animal
 
 def get_animals(db: Session, skip: int = 0, limit: int = 100):

@@ -163,7 +163,12 @@ class AnimalBase(BaseModel):
 
 
 class AnimalCreate(AnimalBase):
-    pass
+    zoopedia_description: ZoopediaDescriptionCreate
+    gameplay: GameplayCreate
+    origins: OriginsCreate
+    habitat: HabitatCreate
+    social: SocialCreate
+    reproduction: ReproductionCreate
 
 
 class AnimalRead(AnimalBase):
