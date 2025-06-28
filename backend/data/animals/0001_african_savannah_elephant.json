@@ -1,0 +1,55 @@
+{
+  "name": "African Savannah Elephant",
+  "latin_name": "Loxodonta africana",
+  "zoopedia_description": {
+    "population_in_the_wild": "415,000",
+    "general": "Native to the savannahs, forests and mountains of Sub Saharan Africa, the African elephant (or Loxodonta africana) is a large, thickset mammal with grey skin and a characteristic trunk used for vocalizing, drinking and grasping food. Both sexes of the species have tusks, and both are known for their intelligence and strong social bonds, especially the bond between mothers and their babies. Female herds bond for life and, even if a herd splits up, the females will remember and communicate with family members they may come across later in life. It is a vulnerable species, threatened by poachers of the illegal ivory trade, but also due to the expansion of human life destroying their habitat. It's quite common that they are viewed negatively by locals, mostly because they can destroy farmland and it's hard to 'elephant proof' land with sufficient boundaries. Fortunately, recent conservation efforts have meant that African elephant population is on the rise. Elephants that live in National Parks are now protected from poaching and hunting, and many African countries have introduced humane ways of preventing elephants from damaging farmland. One method is to build a 'beehive fence'; elephants are extremely afraid of bees and will avoid areas containing them.",
+    "social": "Elephants are social animals, the exception being mature males who usually live alone. Females live in closely bonded family herds - including their young - and will travel and forage together. Herds have a matriarch; an older female who uses her experience to guide the group, and the group will care for each other, helping to raise babies. Elephants have even been known to grieve at the death of a group member. African elephants may travel 50 miles a day searching for food, water and mates.",
+    "reproduction": "To reproduce, a mature male will approach female herds. Any interested female will vocalize towards him; in response he will chase her until she allows him to mate. An elephant's pregnancy lasts 22 months, at which point the female will give birth to a single calf that she will take very close care of. Other female elephants will also help a mother care for her young, too. These calves will remain close to the family herd until they are around 8 years old, at which point the females will remain and the males will move away to form bachelor pods."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": [
+      "Sub-Saharan Africa",
+      "Kenya",
+      "Tanzania",
+      "Botswana",
+      "South Africa",
+      "Zimbabwe",
+      "Namibia",
+      "Angola"
+    ],
+    "iucn_status": "vulnerable"
+  },
+  "habitat": {
+    "fence_grade": 4,
+    "fence_height": "2m",
+    "land_area": 2151.0,
+    "climbing_area": 0.0,
+    "water_area": 148.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 44.0,
+    "biomes": ["desert", "grassland", "aquatic"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 15,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 14,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 5,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 15
+  },
+  "reproduction": {
+    "difficulty": "Average (Polygynous males, monogamous females)",
+    "maturity": 15.0,
+    "sterility": "Death",
+    "gestation": 22.0,
+    "interbirth": 108.0
+  }
+}
