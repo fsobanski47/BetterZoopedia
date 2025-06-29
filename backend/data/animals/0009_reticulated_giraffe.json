@@ -1,0 +1,46 @@
+{
+  "name": "Reticulated Giraffe",
+  "latin_name": "Giraffa camelopardalis reticulata",
+  "zoopedia_description": {
+    "population_in_the_wild": "8,500",
+    "general": "Also known as the Somali giraffe, the reticulated giraffe (or Giraffa camelopardalis reticulata) is a subspecies that lives in the savannahs and open forests of Kenya, Somalia and Ethiopia. The reticulated giraffe is distinguishable from other subspecies thanks to its large, polygonal spots, tan to red in color, that are divided by white interconnecting lines on the animal's fur. While both sexes are extremely tall, the males are significantly taller than females and have well-developed bony horns on their head; the horns of the female are smaller and thinner. Giraffes are famous for their long neck, which is used for accessing leaves that are out of reach to other animals. Reticulated giraffes are threatened by deforestation and the increase in agricultural land conversion, both of which are destroying their habitats. Furthermore, giraffes often live in areas of civil unrest and are likely to be killed as an indirect of the groups such as the 'Reticulated Giraffe Conservation with Pastoralists Initiative' have been established and are dedicated to protecting giraffes. Groups like this install cameras on giraffe trails to track the animals, locate snares and prevent poaching, while this activity also benefits other species that may live in the area. The group also educates locals on giraffes and the local wildlife. The phylogeny of giraffes is a debated subject - current research is in conflict about whether varieties of giraffes are separate species, subspecies, or a combination of the two. Most of the different varieties of giraffe have been separated for extremely long periods of time, so there has been no mixing of DNA between them. This means that speciation is happening or may have already happened. Some research indicates that all giraffes are one species with multiple subspecies, while some indicates that there are four species; more still claim that there are 8 species and subspecies within those.",
+    "social": "Giraffes live in loosely-bonded groups. Females live in herds that forage and travel together, but may leave and join several groups in their lifetime. Males live in bachelor herds or are solitary and follow the female herds with the hope of mating. The older the male is, the longer he spends tracking females.",
+    "reproduction": "Males track female herds, waiting for signs of receptivity. If a female is in oestrus, males will attempt to mate with her and defend her against rival males, often resulting in aggressive fights. If the female allows it, the male will mate with her. After a pregnancy of 14 months, she will give birth to one calf. Male calves stay with their mother until they are around 3 years old, at which point they will leave to join a bachelor herd. Female calves stay with their mother's group longer, but are likely to leave at some point to find an unrelated female group."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Somalia", "Ethiopia", "Kenya"],
+    "iucn_status": "endangered"
+  },
+  "habitat": {
+    "fence_grade": 3,
+    "fence_height": ">2m",
+    "land_area": 1306.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["tropical", "grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 2,
+    "group_size_upper_bound": 12,
+    "group_size_upper_bound_male": 4,
+    "group_size_upper_bound_female": 8,
+    "male_group_size_lower_bound": 2,
+    "male_group_size_upper_bound": 12,
+    "female_group_size_lower_bound": 2,
+    "female_group_size_upper_bound": 12
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 4.0,
+    "sterility": "25 years (estimate)",
+    "gestation": 15.0,
+    "interbirth": 36.0
+  }
+}

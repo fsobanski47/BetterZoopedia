@@ -1,0 +1,46 @@
+{
+  "name": "Ring Tailed Lemur",
+  "latin_name": "Lemur catta",
+  "zoopedia_description": {
+    "population_in_the_wild": "2,000",
+    "general": "Like all species of lemur, the ring-tailed lemur (or Lemur catta) is native to Madagascar and is not naturally found anywhere else in the world. Ring-tailed lemurs have a pointed muzzle, cat-like ears, and a long tail that has 12 or 13 white rings, 13 or 14 black rings, and a tip that is always black. They are usually between 39 and 46cm in size with a tail of 56 to 63cm and live in groups called 'troops' that will travel and forage together. Ring-tailed lemurs are omnivorous and will eat fruit, leaves, insects and most other food they can find. The ring-tailed lemur is endangered, primarily due to deforestation, mining and the creation of farmland destroying their habitat. They are also hunted for bushmeat and captured for the illegal pet trade. Madagascar can also have harsh weather conditions and extended periods of drought that can kill large numbers of the population. A special reserve called 'Beza Mahafaly' has been created to protect the lemur population and educate the local community on conservation. The reserve also promotes ecotourism and takes part in drought intervention by introducing water sources during periods of harsh weather.",
+    "social": "Ring tailed lemurs live in family groups of up to 30 individuals. The females are interrelated, and the males migrate from their family group when they reach adulthood. Lemur troops spend daylight hours foraging for leaves and fruit, moving several kilometers a day. They are playful and friendly towards members of their own group, but may be aggressive to other lemur troops.",
+    "reproduction": "Ring tailed lemurs are promiscuous; both males and females will mate with multiple partners. Who mates with whom depends on the dominance structure within the troop, with low ranking males unlikely to mate at all. Female lemurs will be pregnant for 4.5 months, before giving birth to 1 or 2 babies. Infants will be carried by their mother until they are 6 months old, when they will move around completely independently. Females remain with their mother's group for life, whereas young males leave their mother's group at 3 to 5 years of age in search of an unrelated group. They will move groups several times throughout their life."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Madagascar"],
+    "iucn_status": "endangered"
+  },
+  "habitat": {
+    "fence_grade": 1,
+    "fence_height": ">1.25m",
+    "land_area": 210.0,
+    "climbing_area": 20.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 10.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["tropical"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 30,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 29,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 30,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 30
+  },
+  "reproduction": {
+    "difficulty": "Easy (Promiscuous)",
+    "maturity": 3.0,
+    "sterility": "16 years",
+    "gestation": 4.0,
+    "interbirth": 12.0
+  }
+}

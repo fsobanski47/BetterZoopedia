@@ -1,0 +1,46 @@
+{
+  "name": "Galapagos Giant Tortoise",
+  "latin_name": "Chelonoidis nigra",
+  "zoopedia_description": {
+    "population_in_the_wild": "1,000+ (exact number unknown)",
+    "general": "The Giant Galápagos tortoise (or Chelonoidis nigra) is a species of reptile endemic to the Galápagos Islands and does not appear anywhere else in the world. They come in two types - saddleback shelled and dome shelled - and both variants have a dull grey-brown shell and scaly, grey colored skin. Saddleback shell tortoises have long necks and live in dry lowland areas, while dome shell tortoises have short necks and live in humid highland areas. Both can grow to extremely large sizes, with the average male weighing between 272 and 317 kg, and the average female weighing between 136 and 181 kg. In the past, overexploitation caused the number of Giant Galápagos to suffer a very sharp decline; they were hunted for their meat and oil, while their habitats were destroyed to create farmland. Seafarers would also often stock their boats with giant tortoises as food supply due to their large size providing plenty of meat, as well as the fact that they require very low maintenance. However, captive breeding and releasing back into the wild has brought the species back from the brink of extinction - despite still being vulnerable, they are now also protected by conservation efforts. A current problem they face is their habitat being destroyed by non-native feral goats, but efforts are being made to remove these goats from the islands.",
+    "social": "Giant Galápagos tortoises are solitary but do tolerate each other. Saddleback males are particularly aggressive towards each other during the mating season.",
+    "reproduction": "During the mating season, males and females will gather in the humid highlands of the islands; the former tracking the latter by their scent, warding off any rival males by biting, or with mating displays in which they extend their neck and stand as tall as they can. When a male does encounter a female, he will ram her with his shell, chase her and bite her legs - in return, she will either run away or allow him to mate with her, which she does by laying low on the ground and withdrawing her legs. The male may continue to ram her with his shell to get into the right position, and will then mount her. Thereafter, the female will begin a repetitive nest building behavior that involves digging a 30cm deep hole with her back legs; she does this until she is happy and lays a clutch of 4 to 16 eggs inside. A female will lay between 1 and 4 clutches per breeding season, covering the nests over with a muddy plug made of soil and urine, before leaving the eggs to incubate in the sun. After 4 to 8 months, the eggs will hatch, and the hatchlings will spend several days or weeks digging their way out before living completely independently. Galápagos giant tortoises reach sexual maturity between 20 and 25 years old."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["South America"],
+    "regions": ["Galapagos Islands"],
+    "iucn_status": "vulnerable"
+  },
+  "habitat": {
+    "fence_grade": 1,
+    "fence_height": ">0.5m",
+    "land_area": 230.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 14.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["tropical"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 4,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 3,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 2,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 4
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 22.0,
+    "sterility": "Death",
+    "gestation": 8.0,
+    "interbirth": 24.0
+  }
+}

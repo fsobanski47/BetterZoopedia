@@ -1,0 +1,46 @@
+{
+  "name": "Pygmy Hippopotamus",
+  "latin_name": "Choeropsis liberiensis",
+  "zoopedia_description": {
+    "population_in_the_wild": "3,000",
+    "general": "The pygmy hippopotamus (or Hexaprotodon liberiensis) is a species of medium-sized mammal that lives in the rainforests and swamps of Sierra Leone, Liberia, Guinea and the Ivory Coast. They have grey-brown skin, small ears and sturdy legs with four toed feet, and can usually be found near rivers, where they spend most of their time wallowing and sleeping. On average, they are between 75 to 100cm tall, 150 to 175cm long and weigh between 180 and 275kg. The pygmy hippo is endangered, threatened by the deforestation that has encroached upon their habitat, as well as by poaching. Their wellbeing is further complicated by the fact that their habitat often falls within warzones, which may cause deaths and also makes conservation efforts difficult. There are several national parks within the hippo's range where it is protected, and organisations like the Zoological Society of London are conducting research on their ecology to better understand how to protect them.",
+    "social": "Pygmy hippopotami are primarily solitary but may also live in pairs comprised of mother and calf, or a mated male and female. If they encounter other pygmy hippos, they tend to ignore each other.",
+    "reproduction": "The mating habits of wild pygmy hippopotami are unknown, so most of the information known is based on observations of captive groups. From what we know, a male will court a receptive female by following her, as well as defecating and urinating near her, using his tail to spread his waste around; she may respond in kind if receptive. The two may mate underwater or on land, and females will be pregnant for 6 to 7 months, giving birth to a single calf. Mothers will start weaning their young when they are between 6 and 8 months old, and they will be fully weaned by the time they turn 1. Before weaning, the juvenile hippos will hide in the water while their mother forages at dusk; after weaning, they accompany their mother on foraging trips, and will stay with their mother until the next calf is born. Both males and females reach sexual maturity at between 3 and 5 years old."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "deluxe"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Sierra Leone", "Liberia", "Guinea", "Ivory Coast"],
+    "iucn_status": "critically endangered"
+  },
+  "habitat": {
+    "fence_grade": 3,
+    "fence_height": ">1m",
+    "land_area": 270.0,
+    "climbing_area": 0.0,
+    "water_area": 270.0,
+    "temperature_lower_bound": 12.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["aquatic", "tropical"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 4,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 3,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 4,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 4
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Monogamous (in captivity))",
+    "maturity": 4.5,
+    "sterility": "Death",
+    "gestation": 7.0,
+    "interbirth": 12.0
+  }
+}

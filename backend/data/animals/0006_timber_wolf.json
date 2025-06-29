@@ -1,0 +1,46 @@
+{
+  "name": "Timber Wolf",
+  "latin_name": "Canis lupus",
+  "zoopedia_description": {
+    "population_in_the_wild": "300,000",
+    "general": "Timber wolves (or Canis lupus) are a large canid species that live across most of the Northern hemisphere. Also known as grey wolves, they are large generalist predators that will eat most prey they can catch, and which are capable of living in a wide variety of different environments. The appearance of timber wolves can vary widely and is mostly dependent on which population is being observed. There are 38 subspecies, each with adaptations to their specific environments, thus causing their varied appearance. In general, they have a mottled grey-brown fur coat, pointed ears and a long straight snout. In terms of size, the wolves have a slim build with a deep rib cage and long legs. The species is not endangered. However, the timber wolf's range has been decreased by 30% due to humanity's expansion into the environment and the subsequent change in land use. Wolves continue to be challenged by human action; they are a wide-ranging species who require large areas for hunting and roaming, which often causes conflict with people as they may kill livestock or scavenge in urban areas. There is no official global wolf protection, although some countries have conservation practices in place to protect their regional wolves.",
+    "social": "Wolves are very social animals that live in family packs. An average pack contains one alpha male, one alpha female, their young adult offspring, and a litter of pups that are less than a year old. Wolf packs are closely bonded, and wolves get distressed if their pack is separated or if a pack member dies.",
+    "reproduction": "In a wolf pack, the alpha male and alpha female are monogamously bonded and mate for life, and only they have young within the pack. Their pups stay with them until they are sexually mature or until food competition becomes too high, at which point they will leave the pack and become a lone wolf. Lone wolves look to meet another lone wolf of the opposite sex and establish a territory. If they find a partner, they mate during the breeding season and reproduce a litter of pups once a year and will stay together for life."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Asia", "Europe", "North America"],
+    "regions": ["Much of the Northern Hemisphere"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 1162.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": -8.0,
+    "temperature_upper_bound": 29.0,
+    "biomes": ["taiga", "temperate", "tundra"]
+  },
+  "social": {
+    "group_size_lower_bound": 2,
+    "group_size_upper_bound": 12,
+    "group_size_upper_bound_male": 12,
+    "group_size_upper_bound_female": 12,
+    "male_group_size_lower_bound": 2,
+    "male_group_size_upper_bound": 12,
+    "female_group_size_lower_bound": 2,
+    "female_group_size_upper_bound": 12
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Monogamous)",
+    "maturity": 4.0,
+    "sterility": "Death",
+    "gestation": 2.0,
+    "interbirth": 12.0
+  }
+}

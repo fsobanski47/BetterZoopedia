@@ -1,0 +1,46 @@
+{
+  "name": "Western Chimpanzee",
+  "latin_name": "Pan troglodytes verus",
+  "zoopedia_description": {
+    "population_in_the_wild": "18,000-60,000",
+    "general": "The Western chimpanzee (or Pan troglodytes verus) is a subspecies of the common chimpanzee native to the forests of Guinea, Liberia, Senegal, Sierra Leone and the Ivory Coast. Along with bonobos, they are the closest living relatives of human beings, sharing more than 98% of our DNA. They are critically endangered, heavily threatened by the loss of their habitat - something accelerated by deforestation and the expansion of human agriculture. They are also targeted by poachers for bushmeat, traditional medicines and also capture for the illegal pet trade. As a result, all chimpanzees are protected by national and international laws, but enforcement of those laws is weak and remains an ongoing problem. While 30% of chimps live within national parks where they receive ample protection, those living in the wild are very vulnerable to outside threat. Western chimpanzees are extremely intelligent and socially capable animals. They have black hair, brown skin and eyes, long arms, hands and feet, with opposable thumbs that allow for more complex motor functions. While the subspecies is not that visually distinct from the Central and Eastern chimpanzees, the population of Western chimpanzees has been isolated for half a million years and is now genetically distinct.",
+    "social": "Chimpanzees are very social animals, living in large groups in the wild. Males are dominant in chimpanzee society, with their age being a primary determining factor in their hierarchy. The males in individual groups are interrelated, while unrelated females migrate in from other groups, and they will all further their social bonding by hunting together and grooming each other. They will even learn skills from one another, such as how to use sticks and rocks as tools.",
+    "reproduction": "Chimpanzees are promiscuous animals, with both males and females mating with multiple partners throughout their lifetime. The alpha male gets first pick of a female partner, while some males may keep their chosen females away from other males because of their promiscuity. The pregnancy of a female chimp lasts 8 months before giving birth to a single infant, which the mother will take care of until it reaches around 4 years old. At this point, the offspring will begin to distance from its mother. It's at this age that young males will begin to form close bonds with other males within the group, while females will begin to explore away from the family group. Then, at 10 years old, the females will leave in search of an unrelated group, while the males remain with their original family."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Guinea", "Senegal", "Liberia", "Sierra Leone", "Ivory Coast"],
+    "iucn_status": "critically endangered"
+  },
+  "habitat": {
+    "fence_grade": 3,
+    "fence_height": ">5m",
+    "land_area": 780.0,
+    "climbing_area": 80.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["tropical"]
+  },
+  "social": {
+    "group_size_lower_bound": 5,
+    "group_size_upper_bound": 15,
+    "group_size_upper_bound_male": 10,
+    "group_size_upper_bound_female": 10,
+    "male_group_size_lower_bound": 5,
+    "male_group_size_upper_bound": 10,
+    "female_group_size_lower_bound": 5,
+    "female_group_size_upper_bound": 15
+  },
+  "reproduction": {
+    "difficulty": "Easy (Promiscuous)",
+    "maturity": 14.0,
+    "sterility": "50 years",
+    "gestation": 8.0,
+    "interbirth": 60.0
+  }
+}
