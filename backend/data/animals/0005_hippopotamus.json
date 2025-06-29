@@ -1,0 +1,46 @@
+{
+  "name": "Hippopotamus",
+  "latin_name": "Hippopotamus amphibius",
+  "zoopedia_description": {
+    "population_in_the_wild": "125,000-150,000",
+    "general": "The common hippopotamus (or Hippopotamus amphibius) is a large mammal native to the rivers of Sub-Saharan Africa. They are large, water dwelling animals with long protruding teeth, nostrils on the top of their snout, small ears and thick grey-brown skin. Males are 4 to 5m long and weigh between 1500 and 4500 kg, whereas females measure between 3.3 and 4.2m, and weight 1000 to 1500 kg. Hippopotamus face many threats. Chiefly, they are endangered by loss of habitat, conflict with humans over land, plus the threat of hunting; the species is poached for its meat and the ivory found in their teeth. Many areas populated by hippos are officially protected, but enforcing these protections can be difficult - some areas are not protected at all. In order to ensure the ongoing survival of the hippo, further conservation and action is needed.",
+    "social": "Hippos interact with each other, but do not form close groups or bonds. Mature males are semi-solitary and territorial, presiding over a stretch of river and allowing groups of females (and non-challenging males) to live there. Females will choose where to live based on the quality of the habitat, and thus there will be larger groups in better parts of the river. Hippos are known to be friendly to each other when in water, but can be aggressive towards each other when on land, especially when feeding.",
+    "reproduction": "Male hippos with better territory are more likely to be successful in finding a mate, due to the increase in probability that females will select their stretch of river to live in. Males detect receptive females through smell, before following and vocalizing at her until she allows him to mate with her. The two mate underwater, with the female's nostrils often being the only visible part of her above the surface. 8 months after intercourse, the female hippopotamus will give birth, underwater, to a single baby, who will swim to the surface to take its first breath. The calves stay with their mother until they are between 5 and 7 years old, at which point they will leave to find their own area to live away from related individuals."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Sub Saharan Africa, all countries"],
+    "iucn_status": "vulnerable"
+  },
+  "habitat": {
+    "fence_grade": 4,
+    "fence_height": ">2m",
+    "land_area": 1004.0,
+    "climbing_area": 0.0,
+    "water_area": 1004.0,
+    "temperature_lower_bound": 10.0,
+    "temperature_upper_bound": 38.0,
+    "biomes": ["aquatic", "grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 30,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 29,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 3,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 30
+  },
+  "reproduction": {
+    "difficulty": "Easy (Polygynous)",
+    "maturity": 6.0,
+    "sterility": "40 years (estimate)",
+    "gestation": 8.0,
+    "interbirth": 24.0
+  }
+}

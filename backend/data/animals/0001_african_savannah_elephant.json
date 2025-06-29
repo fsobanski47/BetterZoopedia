@@ -27,7 +27,7 @@
   },
   "habitat": {
     "fence_grade": 4,
-    "fence_height": "2m",
+    "fence_height": ">2m",
     "land_area": 2151.0,
     "climbing_area": 0.0,
     "water_area": 148.0,

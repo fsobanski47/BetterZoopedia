@@ -1,0 +1,46 @@
+{
+  "name": "Plains Zebra",
+  "latin_name": "Equus quagga",
+  "zoopedia_description": {
+    "population_in_the_wild": "150,000-250,000",
+    "general": "The plains zebra (or Equus quagga) is native to Eastern and Southern Africa, preferring to live in easy reach of water sources on the savanna. The species is divided into six subspecies, separated due to different features, usually varying strip patterns, and lack of interbreeding between groups. Plains zebra have the black and white stripes famous of all zebra, but are smaller than Grévy's zebra and larger than the mountain zebra. Males and females can both be 3.6ft to 4.8ft in height, and between 7.2ft and 8.2ft in length, although males are generally 10% larger than females. The species' population is stable, but near threatened status. Excessive hunting has pushed one subspecies of plains zebra (the quagga) to extinction. This remains a problem for others, all of which are desirable to hunters for their skins. The zebra also rely on migration paths, which have been known to become blocked by man made fences and walls, preventing them from reaching areas with food and water during the dry season. Many zebra live within National Parks where they are protected, but they are a far-ranging species and may move out of protected areas during migrations. When in National Parks, there are concerted efforts to prevent poaching.",
+    "social": "Plains zebra live in cohesive herds in the wild, which can be composed of several harems that consist of one stallion, several females and their young offspring. Young males that have no yet gained their own harem live in 'bachelor herds'. Females within a harem have a hierarchy depending on how long they have been with the stallion; the female that joined the stallion first is the alpha female.",
+    "reproduction": "Male zebra 'acquire' a young female by approaching her while in her family herd when she first reaches sexual maturity. He must challenge, fight and subdue her father to 'win' the female, who will then join him. Other males may also attempt to steal her. The stallion that first mates with the female is the one she will remain with. Female zebra are pregnant for 12 to 14 months and give birth to one foal. Female foals remain with their natal herd until they join an unrelated male, whereas male foals leave their mother when she has another foal to join a bachelor herd of other young males."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Eastern and Southern Africa"],
+    "iucn_status": "near threatened"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 510.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 6,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 5,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 6,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 6
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 4.0,
+    "sterility": "Death",
+    "gestation": 13.0,
+    "interbirth": 12.0
+  }
+}

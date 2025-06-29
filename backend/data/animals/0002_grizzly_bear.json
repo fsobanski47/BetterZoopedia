@@ -1,0 +1,46 @@
+{
+  "name": "Grizzly Bear",
+  "latin_name": "Ursus arctos horribilis",
+  "zoopedia_description": {
+    "population_in_the_wild": "55,000",
+    "general": "Native to northern USA and Canada, the grizzly bear is in fact a subspecies of brown bear (or Ursus arctos) and is often called the North American brown bear to prevent confusion. A Grizzly can be identified by its thick, brown fur, a large shoulder hump, a straight snout and rounded ears. They have strong front legs with long claws used for digging and hunting. Grizzlies can grow extremely large, but often exhibit a lot of variation in size between different populations - the average male weighs around 528 lbs (239 kg) and measures 7.25 feet (2.2 meters) long, while an average female weighs 352 lbs (160 kg) and measures 6 ft (1.8 meters). Although the population as a whole is not listed as endangered, there are sub-populations that are vulnerable; mostly those in areas of expanding human development. Additionally, bears are often attracted to areas where humans live due to plentiful scavenging opportunities, and this often leads to them being killed when perceived as a nuisance or a threat. Bears are also killed for sport and trophy hunting, and this is often done unsustainably. Grizzly bears are registered as threatened in the USA and Canada, and The U.S. Fish and Wildlife Service is working to restore and protect bear populations in Montana, Wyoming, Idaho and Washington. Additionally, Canada closely monitors its bear population in various areas by logging DNA samples and taking censuses, noting when the population is increasing and decreasing, as well as by helping conservationists to target vulnerable populations.",
+    "social": "Grizzly bears are solitary, the only exception being a mother with her cubs. They only interact with each other to mate or fight over mates. They may be seen in close quarters when there is a desirable food source, such as gathering at a river's edge during the salmon spawning season. However, bears will usually ignore each other if they come across one another.",
+    "reproduction": "Male grizzly bears track females using the scent of their urine. When a male and female meet, they will play together; wrestling and pawing each other before mating. The female will be pregnant for 4 to 6 months, and she will give birth to 1 to 4 cubs during hibernation, without waking. The cubs will search out milk and suckle from their mother until the end of hibernation, when they will leave the den and have their first solid food. The bear cubs stay with their mother until they are 2 to 3 years old, at which point they will leave to establish their own territory."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["North America"],
+    "regions": ["Canada", "Northern USA (mostly Alaska)"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 4,
+    "fence_height": ">2m",
+    "land_area": 750.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": -10.0,
+    "temperature_upper_bound": 28.0,
+    "biomes": ["taiga", "grassland", "tundra"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 2,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 1,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 1,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 2
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Promiscuous)",
+    "maturity": 8.0,
+    "sterility": "25 years (estimate)",
+    "gestation": 8.0,
+    "interbirth": 60.0
+  }
+}
