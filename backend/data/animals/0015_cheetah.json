@@ -1,0 +1,54 @@
+{
+  "name": "Cheetah",
+  "latin_name": "Acinonyx jubatus",
+  "zoopedia_description": {
+    "population_in_the_wild": "6,700",
+    "general": "The Cheetah (or Acinonyx jubatus) lives in the savannas and dry woodlands of Central and Southern Africa. They can be recognized by their slim body, deep chest, thin legs and tail, as well as dark 'tear marks' on their face. Not to mention their most distinctive feature - their spots. 'Cheetahs are famous for being the fastest land animal, reaching up to 70 mph when pursuing their prey. This is generally medium-sized mammals such as the Gazelle and Impala. The cheetah population is in decline due to habitat loss; their territory having been overtaken by farmland and urban buildings. It is probable that their conservation status will go from 'vulnerable' to 'endangered' in the near future. Conservation efforts by the 'International Union for Conservation of Nature', Zoological Society of London' and 'Range Wide Conservation Program for Cheetah and African Wild Dogs' include promoting ecotourism and creating reserves around land where cheetahs are prevalent in order to maintain their territory and prevention from poaching.",
+    "social": "Female cheetahs are solitary animals; they generally live and hunt alone, except when they are with there cubs, which will stay with there mother until they are old enough to cope on their own. Male cheetahs are often found in pairs or trios that live together and assist each other when hunting. These male cheetah groups often become very close and will pine for each other when separated.",
+    "reproduction": "Males will track fertile females by the scent of her urine, staying together for several days once they meet and mating multiple times before separating. A female will be pregnant for approximately 3 months and then give birth to a litter of between 2 and 5 cubs, although larger litters of 8 do occur. Cheetah mothers will start teaching their cubs to hunt at 5 months old, and they will become fully independent at about a year old."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": [
+      "Niger",
+      "Sudan",
+      "Ethiopia",
+      "Kenya",
+      "Tanzania",
+      "Namibia",
+      "Botswana"
+    ],
+    "iucn_status": "vulnerable"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">2m",
+    "land_area": 705.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland", "desert"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 3,
+    "group_size_upper_bound_male": 2,
+    "group_size_upper_bound_female": 1,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 3,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 1
+  },
+  "reproduction": {
+    "difficulty": "Easy (Promiscuous)",
+    "maturity": 2.0,
+    "sterility": "12 years (est.)",
+    "gestation": 3.0,
+    "interbirth": 19.0
+  }
+}

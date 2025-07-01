@@ -1,0 +1,46 @@
+{
+  "name": "Komodo Dragon",
+  "latin_name": "Varanus komodoensis",
+  "zoopedia_description": {
+    "population_in_the_wild": "1,400",
+    "general": "The Komodo dragon (or Varanus komodoensis) is a large species of reptile that lives on the Indonesian isles of Komodo, Rinca, Flores and Gili Motang. They are a dull green-brown in color with wide set limbs with a wide gape, have a long, muscular tail, and a yellow forked tongue. The males reach an average length of 2.59m and usually weigh between 79 and 91kg, whereas the females are smaller, averaging 2.29m long and between 68 and 73kg. A Komodo dragon's walk is very distinctive, moving its limbs far out from its body and swaying from side to side as it moves. Although they appear slow, the dragons can run up to 12mph when chasing prey. The species is classified as vulnerable; endangered due to habitat loss, human encroachment into their environments, and because of mankind's overhunting of the deer that are their preferred prey. They are also threatened by volcanic activity on the islands, which can rapidly kill many dragons, destroying their nests at the same time. As a result, the Komodo dragon is now protected by Indonesian law, and the Isle of Komodo has been declared a National Park in order to help with its conservation.",
+    "social": "Komodo dragons are solitary creatures, but they will group together to feed and mate. When in groups, the largest male is dominant; he will feed first and get first choice of females.",
+    "reproduction": "During the mating season, males fight over territory and mates, scenting the air with their tongues to track nearby females. Fighting involves the males standing on their hind legs and wrestling, with the victor pinning their rival to the ground. After winning, the male will attempt to approach the female - they are rarely receptive to this, often biting and scratching any males who are attempting to mate with them. Therefore, in order to be successful, males must fully restrain the female, pinning her to the ground before copulation. The mother will carry the eggs for 1 to 3 months, laying them in a nest in the ground - usually the abandoned dwelling of a ground-nesting bird - where they will remain for 7 to 8 months before hatching. Juvenile Komodo dragons must dig their way out of the ground before climbing into trees and living above ground to avoid being eaten by adults. They will not reach sexual maturity until they are between 8 and 9 years old."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "deluxe"
+  },
+  "origins": {
+    "continents": ["Asia"],
+    "regions": ["Islands of Indonesia (Komodo, Rinca, Flores, Gili, Motang)"],
+    "iucn_status": "endangered"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1m",
+    "land_area": 600.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 12.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["tropical", "grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 2,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 1,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 2,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 2
+  },
+  "reproduction": {
+    "difficulty": "Difficult (Monogamous)",
+    "maturity": 8.0,
+    "sterility": "Death",
+    "gestation": 8.0,
+    "interbirth": 24.0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Springbok",
+  "latin_name": "Antidorcas marsupialis",
+  "zoopedia_description": {
+    "population_in_the_wild": "2,000,000-2,500,000",
+    "general": "The springbok (or Antidorcas marsupialis) is a small species of antelope native to the savannahs of Southern Africa. They have lyre-shaped black horns, a tan coat with dark brown markings, a white belly and face, with dark brown tear marks from their eyes to their muzzle. Males and females are a similar size and both have horns, although the males are more robust. Springboks are not endangered so there are no specific conservation efforts for this species. They are easy to breed in captivity, often as game animals and for meat, and are protected in areas where their range falls into nature reserves.",
+    "social": "Springboks have a complex and changeable social structure. Like most ungulates, they live in herds that can be composed of multiple group types. These include mixed groups of non-dominant males, females and juveniles; bachelor groups of juvenile and young adult males; solitary dominant males who are territorial and defend their range from other males; and breeding harems comprised of a dominant male and multiple receptive females. The composition of these groups, as well as the numbers within them, change depending on the time of year and the availability of food. For example, during the rainy season, there will be more breeding harem groups than at other times of year.",
+    "reproduction": "To mate, territorial dominant males will herd females passing through and foraging on their territory, together creating a harem. He will display to them by jumping high off the ground and defending their range from rival males, courting a female in his harem by approaching her and tapping his foot on the ground multiple times. If she's receptive, she will allow him to mate with her. After a pregnancy of 5 to 6 months, the mother will give birth to a single calf, which is weaned by the time it is 4 months old. Females will stay with their mother's herd and reach sexual maturity at 7 months old, whereas males will leave their mother's herd at approximately 6-months-old and join a bachelor herd, reaching sexual maturity at the age of 2. They may then establish territory and become a dominant male, however many males never become dominant and will never acquire a harem, mating instead with receptive females within a mixed group."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Namibia", "Botswana", "South Africa"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 425.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 43.0,
+    "biomes": ["grassland", "desert"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 35,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 34,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 35,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 35
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 1.0,
+    "sterility": "Death",
+    "gestation": 6.0,
+    "interbirth": 12.0
+  }
+}

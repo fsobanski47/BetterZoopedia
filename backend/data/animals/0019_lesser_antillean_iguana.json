@@ -1,0 +1,46 @@
+{
+  "name": "Lesser Antillean Iguana",
+  "latin_name": "Iguana delicatissima",
+  "zoopedia_description": {
+    "population_in_the_wild": "15,000 (fragmented)",
+    "general": "The Lesser Antillean Iguana (or Iguana delicatissima) is a large species of lizard endemic to the Lesser Antilles Islands of the Caribbean - specifically Anguilla, Guadeloupe, Martinique and Dominica. It is a critically endangered species, threatened by habitat loss, hunting by feral animals, and hybridization with the invasive green iguana. The Lesser Antillean Iguana is gray with a green belly and has a short, blunted face with white scales around the jaw; males have pink jowls and blue scales around the eyes, whereas females lack this coloration and are about two thirds of the size of their male counterparts.",
+    "social": "Lesser Antillean iguanas are solitary animals and only interact to mate and compete over mates.",
+    "reproduction": "Lesser Antillean iguana males have hierarchy where dominance is signaled by their coloration; the darker grey the scales, the more dominant the individual and the more likely it is for a female to be receptive to them. During the mating season, they will establish a territory and display to females by strutting and engaging in 'head pushing' behavior with rival males. If interested, a female will approach so he can mount and mate. The mother will then search for a sandy area to dig a tunnel where she will lay her clutch of eggs, which hatch after 3 months and are immediately independent. The young will reach sexual maturity at between 3 and 5 years-old."
+  },
+  "gameplay": {
+    "interactivity": "exhibit",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["South Africa", "Eswatini", "Lesotho", "Namibia"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 410.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 7,
+    "group_size_upper_bound": 32,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 31,
+    "male_group_size_lower_bound": 7,
+    "male_group_size_upper_bound": 16,
+    "female_group_size_lower_bound": 7,
+    "female_group_size_upper_bound": 32
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 4.0,
+    "sterility": "Death",
+    "gestation": 9.0,
+    "interbirth": 12.0
+  }
+}

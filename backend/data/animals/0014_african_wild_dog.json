@@ -1,0 +1,46 @@
+{
+  "name": "African Wild Dog",
+  "latin_name": "Lycaon pictus",
+  "zoopedia_description": {
+    "population_in_the_wild": "6,600",
+    "general": "African wild dogs (or Lycaon pictus) are also known as African hunting dogs or painted wolves. They live throughout sub-Saharan Africa - the continent has several different populations and five subspecies in total. The dogs are slim and tall in comparison to other canines, with extremely large rounded ears and distinctive coloration. Generally they have yellow and black mottled fur with white patches on their legs, chest and tail, however this varies on the subspecies. Some may also have a spot-like patterning on parts of their body. African wild dogs are endangered, mainly due to habitat fragmentation. Their ranges become smaller as human population expands and land use changes, which also means that they have contact with domestic animals, exposing them to diseases that they would be unlikely to be threatened by in the wild. African wild dogs are a very wide-ranging species, too, meaning it is difficult to monitor them in protected areas as they are likely to move around. Additionally, they are often killed by lions and hyenas. Conservation groups such as 'Range Wide Conservation Program for Cheetah and African Wild Dogs' are protecting wild dogs by improving coexistence between dogs and humans, and assisting in land use planning that will give dogs more hunting space to allow their population size to expand.",
+    "social": "African wild dogs are extremely social animals. They live in packs with an alpha male and female, who both lead the group on hunts and act as the main decision makers. The males in a pack are all related; females migrate into the group from their natal pack when they are around a year old. Adult packs are permanent once formed, with the dogs remaining together for life, even responding badly to being separated or losing a pack member.",
+    "reproduction": "In a pack of African wild dogs, only the alpha male and female reproduce. The two are monogamously bonded and will have a litter of pups each year. Subordinate dogs do not have pups but help raise the pups of the alpha pair, and it is thought that this is to prevent the pack from becoming too large for each dog to eat enough food."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Sub-Saharan Africa"],
+    "iucn_status": "endangered"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 1162.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland", "desert"]
+  },
+  "social": {
+    "group_size_lower_bound": 2,
+    "group_size_upper_bound": 27,
+    "group_size_upper_bound_male": 27,
+    "group_size_upper_bound_female": 9,
+    "male_group_size_lower_bound": 2,
+    "male_group_size_upper_bound": 27,
+    "female_group_size_lower_bound": 2,
+    "female_group_size_upper_bound": 27
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Monogamous)",
+    "maturity": 2.0,
+    "sterility": "10 years",
+    "gestation": 2.0,
+    "interbirth": 14.0
+  }
+}

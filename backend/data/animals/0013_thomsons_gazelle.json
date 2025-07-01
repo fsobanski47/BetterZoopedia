@@ -1,0 +1,46 @@
+{
+  "name": "Thomson's Gazelle",
+  "latin_name": "Eudorcas thomsonii",
+  "zoopedia_description": {
+    "population_in_the_wild": "145,000",
+    "general": "Thomson's gazelle (or Eudorcas thomsonii) is a small species of grazing mammal that lives in Africa's Serengeti regions of Tanzania and Kenya. It prefers to live in dry grassland - although is also found in woodland - and has a tan colored back, white underside and a dark stripe on their flank. They also have a tan muzzle, white cheeks and eye region, as well as black streaks running from their eyes to the start of the muzzle. Both sexes have dark, heavily ridged horns - although the males are longer and more robust - they both measure an average of 55 to 82cm tall, 80 to 120cm long, and weigh between 20 and 35kg. The species is not endangered and still live in large numbers, but they are threatened; their population having declined by 60% since 1975 due to the pressures of tourism, change in their habitat, destruction of grassland by wildfire, and the building of roads. They are also frequently hunted for meat. Efforts are being put into protecting Thomson's gazelle by establishing wildlife corridors throughout their habitat that allows them to roam without the risk of roads. Meanwhile, sustainable agriculture is also being encouraged to mitigate habitat destruction and hunting.",
+    "social": "Thomson's gazelle have a complex and changeable social structure. Like most ungulates, they live in herds composed of multiple group types: mixed groups of non-dominant males, females and juveniles; bachelor groups of juvenile and young, adult males; solitary dominant males that are territorial and defend their range from other males; as well as breeding harems comprised of a dominant male and multiple receptive females. Group composition and numbers changes depending on food availability and the time of year. For example, during the rainy season, there will be more breeding harem groups than at other times of year.",
+    "reproduction": "During the breeding season, a dominant, territorial bull will attempt to get females into his harem by chasing and herding any fertile individuals that are feeding and moving through his range. He will assert dominance with loud grunts towards rivals, while also marking his territory by defecating and standing in a challenging posture - horns back, neck stiffened and his tail in a horizontal position. After detecting a female in oestrus by the taste and smell of her urine, he will court her by approaching and tapping his foot on the ground multiple times. If she is receptive, the two will mate, remaining together for several hours afterwards and potentially mating several times during this period. After a 6-month pregnancy, the mother will leave the herd to give birth to 1 calf, which will remain hidden for the first 3 to 4 weeks of its life. It will feed on milk during this month period before it begins to feed on young grasses, and will be fully weaned by the time it is 5 to 8 months old. By this time, the mother is likely to be pregnant again. Thomson's gazelles reach sexual maturity at 2 years old. Females tend to stay with their mother's herd - although this can change during the mating season when herds may be broken up as harems are created - whereas males will leave their mother's herd when they are approximately 6 months old, joining either a bachelor herd or an unrelated mixed herd. They are unlikely to become a dominant male until they are over 2 years old; subadult males in bachelor herds will fight for dominance, then establishing a range and territory once strong enough to fight off rival males. Once their range has been established, they will mark it with urine, scent, and horn scratches, also engaging in ritual displays to establish boundaries with other mature males."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "deluxe"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["Tanzania", "Kenya"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 425.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 3,
+    "group_size_upper_bound": 36,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 35,
+    "male_group_size_lower_bound": 3,
+    "male_group_size_upper_bound": 36,
+    "female_group_size_lower_bound": 3,
+    "female_group_size_upper_bound": 36
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 2.0,
+    "sterility": "Death",
+    "gestation": 6.0,
+    "interbirth": 12.0
+  }
+}

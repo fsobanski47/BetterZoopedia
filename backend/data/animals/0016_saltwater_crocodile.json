@@ -1,0 +1,46 @@
+{
+  "name": "Saltwater Crocodile",
+  "latin_name": "Crocodylus porosus",
+  "zoopedia_description": {
+    "population_in_the_wild": "200,000-300,000",
+    "general": "The saltwater crocodile (or Crocodylus porosus) is an extremely large species of reptile native to the coastal areas of South-east Asia, North Australia and East India. It is an effective and dangerous apex predator, with the males capable of growing between 3.5 to 7m long, and weighing between 200 and 1500kg. Females are significantly smaller, averaging 2.7 to 3.4m and 120-200kg. Both sexes have a broader snout and body compared to other crocodile species, and are tan to greenish grey in colour; there is variation in colour among different populations. The species is not endangered, partially due to its ability to swim long distances around the coast when searching for territory. However, its natural range has decreased and is no longer found in much of South-east Asia and China, where it was once widespread.",
+    "social": "Saltwater crocodiles are solitary, territorial and extremely aggressive. Males will tolerate females living on their territory, and females will look after their hatchlings for the first 8 months of their life, but otherwise they spend their lives alone.",
+    "reproduction": "During the breeding season, a male saltwater crocodile will approach a female on his territory - if she lets him get near, the two will court by rubbing their heads together before mating underwater. The pregnant female will carry her eggs with her for 1 to 2 months before building a nest on the edge of a tidal river or lagoon, laying the clutch inside. She will guard them fiercely for 80 to 98 days, at which point the young crocodiles will hatch and be cared for for the first 8 months of their lives. It's at this point they become large enough to become independent, fending for themselves now they are no longer vulnerable. At the age of 2 and a half, they will start showing territorial behaviour, with females reaching sexual maturity at 12 to 14 years old, and males at 16. Both sexes grow slowly throughout their whole lives."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Asia", "Oceania"],
+    "regions": ["South East Asia", "East India", "North Australia"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1m",
+    "land_area": 210.0,
+    "climbing_area": 0.0,
+    "water_area": 210.0,
+    "temperature_lower_bound": 12.0,
+    "temperature_upper_bound": 42.0,
+    "biomes": ["aquatic", "tropical"]
+  },
+  "social": {
+    "group_size_lower_bound": 1,
+    "group_size_upper_bound": 2,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 1,
+    "male_group_size_lower_bound": 1,
+    "male_group_size_upper_bound": 1,
+    "female_group_size_lower_bound": 1,
+    "female_group_size_upper_bound": 1
+  },
+  "reproduction": {
+    "difficulty": "Easy (Polygynous)",
+    "maturity": 14.0,
+    "sterility": "Death",
+    "gestation": 3.0,
+    "interbirth": 24.0
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Black Wildebeest",
+  "latin_name": "Connochaetes gnou",
+  "zoopedia_description": {
+    "population_in_the_wild": "18,000",
+    "general": "The black wildebeest (or Connochaetes gnou) is a large ungulate species native to Southern Africa, also known as the 'gnu' after the distinctive noise they make when alarmed. The species is recognisable by a brown-black coat and L-shaped horns, and males can be distinguished from females due to their darker colour and larger size. Both sexes have thick, bushy manes and a long horse-like tail, measuring between 1.7 and 2.2m long, 1.06 to 1.21m tall at the shoulder, and weighing 120 to 193kg. While black wildebeest are not currently endangered, they were almost hunted to extinction in the late 1800s, targeted for their meat and leather, as well as for sport. Because they fed in the same areas as grazing livestock, to whom they could spread diseases, they were also considered pests. Thanks to reintroduction from captive populations, black wildebeest are increasing in number, expanding their range, and are no longer endangered.",
+    "social": "Black wildebeest live in large herds comprised of groups of related females and their young offspring; bachelor herds of young males; and dominant bulls who establish territory in the foraging grounds, guarding females moving through his range.",
+    "reproduction": "During the breeding season, dominant bulls will search for receptive females on his territory by smelling their urine, who will then allow him to approach and mate with them. A pregnancy lasts for 8.5 months before the female gives birth to a single calf, which will remain close to its mother for a year, until she gives birth to her next calf. Yearling males leave and join a bachelor herds, whereas females remain with their natal herd."
+  },
+  "gameplay": {
+    "interactivity": "habitat",
+    "edition": "standard"
+  },
+  "origins": {
+    "continents": ["Africa"],
+    "regions": ["South Africa", "Eswatini", "Lesotho", "Namibia"],
+    "iucn_status": "least concern"
+  },
+  "habitat": {
+    "fence_grade": 2,
+    "fence_height": ">1.25m",
+    "land_area": 410.0,
+    "climbing_area": 0.0,
+    "water_area": 0.0,
+    "temperature_lower_bound": 8.0,
+    "temperature_upper_bound": 40.0,
+    "biomes": ["grassland"]
+  },
+  "social": {
+    "group_size_lower_bound": 7,
+    "group_size_upper_bound": 32,
+    "group_size_upper_bound_male": 1,
+    "group_size_upper_bound_female": 31,
+    "male_group_size_lower_bound": 7,
+    "male_group_size_upper_bound": 16,
+    "female_group_size_lower_bound": 7,
+    "female_group_size_upper_bound": 32
+  },
+  "reproduction": {
+    "difficulty": "Very Easy (Polygynous)",
+    "maturity": 4.0,
+    "sterility": "Death",
+    "gestation": 9.0,
+    "interbirth": 12.0
+  }
+}
